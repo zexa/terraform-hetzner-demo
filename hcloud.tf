@@ -26,6 +26,12 @@ provider "hcloud" {
 #  name = "node1"
 #  image = "ubuntu-20.04"
 #  server_type = "cx11"
+#}
+
+#resource "hcloud_server" "node2" {
+#  name = "node2"
+#  image = "ubuntu-20.04"
+#  server_type = "cx11"
 #  ssh_keys = [
 #    "default"
 #  ]
