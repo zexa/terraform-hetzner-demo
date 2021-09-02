@@ -28,6 +28,12 @@ provider "hcloud" {
 #  server_type = "cx11"
 #}
 
+# See https://registry.terraform.io/providers/hetznercloud/hcloud/latest/docs/resources/ssh_key
+#resource "hcloud_ssh_key" "default" {
+#  name = "default"
+#  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAcyyRVA24vQioF2F53uOqnDADxOfX3l++o5GDRMb90/ hetzner_zexa@grayplane"
+#}
+
 #resource "hcloud_server" "node2" {
 #  name = "node2"
 #  image = "ubuntu-20.04"
